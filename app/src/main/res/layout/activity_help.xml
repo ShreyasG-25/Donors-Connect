@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECF5"
+    android:orientation="vertical"
+    tools:context=".arranger.uiArranger.feedback.HelpActivity">
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:padding="5dp"
+        android:text="Send us your feedback!"
+        android:textColor="#1E88E5"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:padding="5dp"
+        android:text="Do you have any suggestion or found some bug? Let us know in the field below."
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etFeedEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="30dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Describe your issue or idea..."
+        android:inputType="textMultiLine"
+        android:padding="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSend"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp"
+        android:background="#1E88E5"
+        android:padding="5dp"
+        android:text="Send Feedback"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>

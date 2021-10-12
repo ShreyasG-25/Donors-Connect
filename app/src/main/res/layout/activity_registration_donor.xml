@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF2D2D"
+    android:orientation="vertical"
+    tools:context=".donorPack.RegistrationDonor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Donors Registration"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CustomCardViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:drawableStart="@drawable/ic_baseline_person_outline_24"
+                    android:drawablePadding="10dp"
+                    android:hint="Name:"
+                    android:minHeight="48dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gender"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="#000000" />
+
+                    <RadioGroup
+                        android:id="@+id/rGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:checkedButton="@id/m">
+
+                        <RadioButton
+                            android:id="@+id/m"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:checked="false"
+                            android:text="Male"
+                            android:textColor="@color/black" />
+
+                        <RadioButton
+                            android:id="@+id/f"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:checked="false"
+                            android:text="Female"
+                            android:textColor="@color/black" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/btnDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:hint="Select DOB"
+                    android:inputType="date"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:drawableStart="@drawable/ic_drop"
+                    android:drawablePadding="10dp"
+                    android:text="Blood Group"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000" />
+
+                <Spinner
+                    android:id="@+id/bloodty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="20dp"
+                    android:minHeight="48dp"
+                    android:padding="20dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <EditText
+                    android:id="@+id/mblno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:drawableStart="@drawable/ic_baseline_call_24"
+                    android:drawablePadding="10dp"
+                    android:hint="Contact Number"
+                    android:inputType="phone"
+                    android:minHeight="48dp" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:drawablePadding="10dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp" />
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:drawableStart="@drawable/ic_home"
+                    android:drawablePadding="10dp"
+                    android:hint=" Address"
+                    android:inputType="textPostalAddress"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:drawableStart="@drawable/ic_baseline_location_city_24"
+                    android:drawablePadding="10dp"
+                    android:text="City"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000" />
+
+                <Spinner
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="20dp"
+                    android:minHeight="48dp"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:padding="20dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <EditText
+                    android:id="@+id/pin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:drawableStart="@drawable/ic_baseline_location_on_24"
+                    android:hint="PinCode"
+                    android:inputType="number"
+                    android:minHeight="48dp" />
+
+
+                <EditText
+                    android:id="@+id/btnDate2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:hint="Your Last Blood Donation Date"
+                    android:inputType="date"
+                    android:minHeight="48dp" />
+
+                <Button
+                    android:id="@+id/btnregister"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="70dp"
+                    android:text="Register"
+                    android:textStyle="bold"
+                    app:cornerRadius="50dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

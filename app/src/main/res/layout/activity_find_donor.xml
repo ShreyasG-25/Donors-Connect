@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF2D2D"
+    tools:context=".home2.FindDonorActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Blood Request"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CustomCardViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ettxtpatientname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:drawableStart="@drawable/ic_baseline_person_outline_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Patient's Name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/etxtcontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:drawableStart="@drawable/ic_baseline_call_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Contact Number"
+                android:inputType="number"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/nav_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_drop"
+                android:drawablePadding="10dp"
+                android:text="Blood Group"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/reqblood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:minHeight="48dp"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/etxtnumunits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:drawableStart="@android:drawable/ic_menu_add"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Enter Units of Blood Required"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_baseline_local_hospital_24"
+                android:drawablePadding="10dp"
+                android:text="Hospital"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/reqhospital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:minHeight="48dp"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/txtdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:focusableInTouchMode="false"
+                android:hint="Select Date When you need Blood"
+                android:inputType="date"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_baseline_location_city_24"
+                android:drawablePadding="10dp"
+                android:text="City"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/reqcity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:minHeight="48dp"
+                android:outlineSpotShadowColor="@color/black"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btnsubmit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                android:text="SUBMIT"
+                android:textStyle="bold"
+                app:cornerRadius="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

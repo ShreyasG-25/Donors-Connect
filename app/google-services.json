@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "739067749272",
+    "firebase_url": "https://donor-project-d8c1b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "donor-project-d8c1b",
+    "storage_bucket": "donor-project-d8c1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739067749272:android:dfbb1d4761d99f47bd81ed",
+        "android_client_info": {
+          "package_name": "com.dhanush.donor_connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739067749272-plumiaummr5gkg5aijntak1nlltj0a9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3vF1W3DihQhe8I9AqrfJrJxXrvIPFs7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739067749272-plumiaummr5gkg5aijntak1nlltj0a9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739067749272:android:557ea91459666f47bd81ed",
+        "android_client_info": {
+          "package_name": "com.dhanush.donorsconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739067749272-plumiaummr5gkg5aijntak1nlltj0a9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3vF1W3DihQhe8I9AqrfJrJxXrvIPFs7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739067749272-plumiaummr5gkg5aijntak1nlltj0a9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739067749272:android:de617c778315a9febd81ed",
+        "android_client_info": {
+          "package_name": "com.dhanush.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739067749272-plumiaummr5gkg5aijntak1nlltj0a9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3vF1W3DihQhe8I9AqrfJrJxXrvIPFs7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739067749272-plumiaummr5gkg5aijntak1nlltj0a9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+rootProject.name = "Donor_Connect"
+include ':app'

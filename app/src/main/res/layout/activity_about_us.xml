@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="45dp"
+
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            tools:context=".home2.AboutUsActivity">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#FAF8F8"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgAU1"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/lnk1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="7dp"
+                            android:fontFamily="sans-serif"
+                            android:onClick="onClick"
+                            android:text="Shreyas G"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="#020DE6"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <TextView
+                            android:id="@+id/textView42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:text="CEO &amp; Founder"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textStyle="italic" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#FAF8F8"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/lnk2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="7dp"
+                            android:fontFamily="sans-serif"
+                            android:onClick="onClick"
+                            android:text="Dhanush Kumar U"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="#020DE6"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Chief Technology Officer &amp; Founder"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textStyle="italic" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imgAU2"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#FAF8F8"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgAU3"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:contentDescription="TODO"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/lnk3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="7dp"
+                            android:fontFamily="sans-serif"
+                            android:onClick="onClick"
+                            android:text="Shravan Sherigar "
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="#020DE6"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <TextView
+                            android:id="@+id/textView46"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:text="Chief Financial Officer"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textStyle="italic" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_menu_help"
+        tools:ignore="SpeakableTextPresentCheck" />"
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
